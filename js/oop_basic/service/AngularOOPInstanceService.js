@@ -1,8 +1,8 @@
 app.factory('AngularOOPInstanceService', AngularOOPInstanceService);
 
 function AngularOOPInstanceService(){
-    return{
-        'Item' : Item
+    return {
+        'Item' : Item,
     }
 
     function Item(item_id, name, type, price){
