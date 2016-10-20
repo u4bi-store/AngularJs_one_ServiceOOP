@@ -3,7 +3,7 @@ app.controller('AngularOOPController', AngularOOPController, AngularOOPInstanceS
 function AngularOOPController($scope, AngularOOPService, AngularOOPInstanceService) {
 
     $scope.flag = AngularOOPService.flag(true);
-    alert($scope.flag);
+    //alert($scope.flag);
 
     var weapon = [];
     var bullet = [];
