@@ -5,6 +5,11 @@
   </head>
   <body ng-controller="TodayMenuController">
       {{food}}
+      <div style = "width:300px; height:300px;">
+        <img src="../images/todaymenu/menu_{{food.food_id}}.jpg">
+      </div>
+      <button ng-click="remote(remoteType)">{{remoteName}}</button>
+
     <script src="../lib/angular.min.js"></script>
     <script src="../js/app.js"></script>
     <script src="../js/todaymenu/service/TodayMenuService.js"></script>
